@@ -11,7 +11,7 @@ import {
   Label,
   Quantity,
 } from './Profile.styled';
-import numberwithcommas from '../../utils/numberwithcommas';
+import numberWithCommas from '../../utils/numberWithCommas';
 
 export default function Profile({ avatar, username, tag, location, stats }) {
   return (
@@ -26,15 +26,15 @@ export default function Profile({ avatar, username, tag, location, stats }) {
       <Stats>
         <StatsItem>
           <Label>Followers</Label>
-          <Quantity>{numberwithcommas(stats.followers)}</Quantity>
+          <Quantity>{numberWithCommas(stats.followers)}</Quantity>
         </StatsItem>
         <StatsItem>
           <Label>Views</Label>
-          <Quantity>{numberwithcommas(stats.views)}</Quantity>
+          <Quantity>{numberWithCommas(stats.views)}</Quantity>
         </StatsItem>
         <StatsItem>
           <Label>Likes</Label>
-          <Quantity>{numberwithcommas(stats.likes)}</Quantity>
+          <Quantity>{numberWithCommas(stats.likes)}</Quantity>
         </StatsItem>
       </Stats>
     </UserProfile>
