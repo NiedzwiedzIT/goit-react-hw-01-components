@@ -1,0 +1,30 @@
+.statistics {
+  max-width: 340px;
+  margin: 0 auto 40px;
+  padding-top: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 0px 2px rgb(0 0 0 / 12%), -1px 0px 2px rgb(0 0 0 / 14%),
+    0px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.75;
+  text-transform: uppercase;
+  color: rgba(32, 32, 32, 0.8);
+}
+
+.statlist {
+  list-style: none;
+  display: flex;
+  gap: 1px;
+  padding: 1px;
+  border-radius: 0 0 4px 4px;
+  font-size: 18px;
+  color: rgba(32, 32, 32, 0.5);
+  line-height: 1.75;
+  background-color: #d0d0d0;
+}
